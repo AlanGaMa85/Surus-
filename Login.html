@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<LINK REL=StyleSheet HREF="formato.css" TYPE="text/css" MEDIA=screen>
+<meta charset="utf-8">
+<title>Ingresando al sistema</title>
+<style>
+
+</style>
+
+</head>
+
+<body>
+
+<body background="fondo.png" style="background-repeat: no-repeat; background-position: center top;">
+
+<div id="social">
+    <a href="https://www.facebook.com" target="_blank"><img src="face.png" width="40" heigth="40"></a>
+    <a href="https://www.twitter.com" target="_blank"><img src="twt.png" width="40" heigth="40"></a>
+</div>
+
+<table>
+<fieldset id="form">
+<legend>Datos de usuario</legend>
+<form action="ingreso.php" method="post">
+<ol>
+    <li><label>Usuario: </label><input type="text" name="usuario" size="25" /></li>
+    <li><label>Contraseña: </label><input type="password" name="password" size="25" /></li>
+    <li><label>Tipo de usuario: </label><select name="tipo_usuario">
+        <option value="Alumno">Alumno</option>
+        <option value="Profesor" selected>Profesor</option>
+        <option value="Empleado">Empelado</option>
+    </select><li>
+</ul>
+    <p align="center"><input type="submit" name="submit" class="btn" value="Ingresar" /></p>
+</fieldset>
+</form>
+</table>
+
+</body>
+</html>
