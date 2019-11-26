@@ -1,17 +1,15 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Surus1</title>
-    </head>
-    <body>
-        <?php
-            echo "Este esta en php"
-        ?>
-    </body>
+<head>
+<title>My Page</title>
+</head>
+<body>
+<form name="myform" action="http://www.mydomain.com/myformhandler.cgi" method="POST">
+<div align="center"><br>
+<input type="checkbox" name="option1" value="Milk"> Milk<br>
+<input type="checkbox" name="option2" value="Butter" checked> Butter<br>
+<input type="checkbox" name="option3" value="Cheese"> Cheese<br>
+<br>
+</div>
+</form>
+</body>
 </html>
