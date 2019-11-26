@@ -1,0 +1,29 @@
+#form {
+    border:1px solid #990000;
+    width:450px;
+    margin:auto;
+}
+#form legend{
+    font-weight:bold;
+    font-size:12px;
+}
+#form ol{
+    list-style:none;
+}
+#form ol li{
+    padding-bottom:5px;
+}
+#form ol li label{
+    width:120px;
+    float:left;
+    text-align:left;
+}
+#form input[type=text] {
+    border:1px solid #CCCCCC;
+}
+#form input.btn {
+    padding:3px;
+    color:#FFFFFF;
+    background-color:#990000;
+    border:1px solid #000000;
+}
